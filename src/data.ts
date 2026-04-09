@@ -1,5 +1,3 @@
-// ❌ ISSUE: Hardcoded database (50 books) embedded in component file
-// ❌ ISSUE: Using 'any' type instead of typed array
 export const BOOK_DB: any[] = [
   { id: '1', isbn: '978-1-260-57536-8', name: 'Biology', author: 'Peter Raven' },
   { id: '2', isbn: '978-1-260-47568-7', name: 'Organic Chemistry', author: 'Janice Smith' },
